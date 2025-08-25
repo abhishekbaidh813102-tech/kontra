@@ -1,0 +1,32 @@
+[
+  {
+    "title": "5 Daily Habits for a Healthy Heart",
+    "date": "2025-07-10",
+    "tags": [
+      "heart",
+      "lifestyle"
+    ],
+    "excerpt": "Simple habits you can adopt today to support long-term heart health.",
+    "url": "/posts/healthy-heart-habits.html"
+  },
+  {
+    "title": "Nutrition Basics: What Your Body Really Needs",
+    "date": "2025-06-20",
+    "tags": [
+      "nutrition",
+      "basics"
+    ],
+    "excerpt": "Understand macronutrients and micronutrients to plan balanced meals.",
+    "url": "/posts/nutrition-basics.html"
+  },
+  {
+    "title": "Managing Stress: Practical Techniques",
+    "date": "2025-05-30",
+    "tags": [
+      "mental health",
+      "stress"
+    ],
+    "excerpt": "Bite-sized techniques to lower stress and stay steady.",
+    "url": "/posts/managing-stress.html"
+  }
+]
