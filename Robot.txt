@@ -1,12 +1,7 @@
-# यह robots.txt फ़ाइल सभी सर्च इंजन को निर्देश देती है।
+# robots.txt for Healthcare Tips
 
 User-agent: *
-# यह नियम सभी वेब क्रॉलरों (जैसे Googlebot, Bingbot, आदि) पर लागू होता है।
-
 Allow: /
-# यह निर्देश क्रॉलरों को आपकी पूरी वेबसाइट क्रॉल करने की अनुमति देता है।
-# इसका मतलब है कि आपकी वेबसाइट का कोई भी हिस्सा ब्लॉक नहीं है।
 
-# यह लाइन आपके sitemap की लोकेशन बताती है।
-# सुनिश्चित करें कि आपने sitemap.xml फ़ाइल को अपनी वेबसाइट की रूट डायरेक्टरी में अपलोड कर दिया है।
-Sitemap: https://www.healthcaretips.com/sitemap.xml
+# Sitemap location
+Sitemap: https://healthcaretips.shop/sitemap.xml
