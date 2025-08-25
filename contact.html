@@ -80,7 +80,7 @@
   </div>
 </header>
 
-  <main class="container">
+<main class="container">
     <div class="contact-wrapper">
       <div class="contact-intro">
         <h1>Contact Me</h1>
@@ -90,6 +90,8 @@
       <div class="contact-details">
         <p><strong>Email:</strong> <a href="mailto:" data-email></a></p>
         <p><strong>Location:</strong> <span data-address></span></p>
+        <!-- आपका फ़ोन नंबर यहाँ जोड़ा गया है -->
+        <p><strong>Phone:</strong> <a href="tel:9123160116" data-phone>9123160116</a></p>
         <p><strong>Socials:</strong> <span id="social-links"></span></p>
       </div>
 
@@ -116,6 +118,10 @@
 <footer class="container footer">
   <div>
     © <span data-year></span> <span data-owner></span>. All rights reserved.
+  </div>
+  <!-- फ़ोन नंबर को फुटर में भी दिखाने के लिए, app.js से 'data-phone' को अपडेट करना होगा -->
+  <div class="small" style="margin-top:6px;">
+    <span data-address>Address</span> · <a href="mailto:" data-email>Email</a> · <a href="tel:9123160116" data-phone>9123160116</a>
   </div>
 </footer>
 
