@@ -1,13 +1,15 @@
 {
   "siteName": "Healthcare Tips",
-  "tagline": "Trusted wellness guides, explained simply.",
-  "ownerName": "Your Name",
-  "makerName": "Your Name",
-  "email": "you@example.com",
-  "phone": "+91-90000-00000",
-  "address": "Your City, India",
-  "twitter": "your_twitter",
-  "linkedin": "your_linkedin",
-  "instagram": "your_instagram",
-  "copyrightYear": 2025
+  "tagline": "Your trusted source for clear and simple health advice.",
+  "ownerName": "Abhishek Baidhya",
+  "makerName": "Abhishek Baidhya",
+  "email": "contact@healthcaretips.com",
+  "phone": "+91 9123160116",
+  "address": "Bhagalpur, Bihar",
+  "copyrightYear": 2025,
+  "socials": {
+    "twitter": "https://x.com/thing_is_news",
+    "linkedin": "https://linkedin.com/company/healthcaretips",
+    "instagram": "https://www.instagram.com/im_abhishek_kushwaha/"
+  }
 }
