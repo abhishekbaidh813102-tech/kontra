@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Home — Healthcare Tips</title>
   <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    /* यह स्टाइल तस्वीरों को गोल और सही आकार का बना देगा */
+    .doctors .doc img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px; /* नाम और फोटो के बीच थोड़ी जगह */
+    }
+  </style>
 </head>
 <body>
 
@@ -34,9 +43,18 @@
       <div class="card">
         <h3>Our Doctors</h3>
         <div class="doctors">
-          <div class="doc"><img src="assets/doctor1.jpg" alt=""><div><strong>Dr. Anjali Sharma</strong><div class="small">Cardiologist</div></div></div>
-          <div class="doc"><img src="assets/doctor2.jpg" alt=""><div><strong>Dr. Rajesh Verma</strong><div class="small">Neurologist</div></div></div>
-          <div class="doc"><img src="assets/doctor3.jpg" alt=""><div><strong>Dr. Priya Kapoor</strong><div class="small">Pediatrician</div></div></div>
+          <div class="doc">
+            <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Female_Indian_Cardiologist.width-1000.format-webp.webp" alt="Photo of Dr. Anjali Sharma">
+            <div><strong>Dr. Anjali Sharma</strong><div class="small">Cardiologist</div></div>
+          </div>
+          <div class="doc">
+            <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Male_Indian_Neurologist.width-1000.format-webp.webp" alt="Photo of Dr. Rajesh Verma">
+            <div><strong>Dr. Rajesh Verma</strong><div class="small">Neurologist</div></div>
+          </div>
+          <div class="doc">
+            <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Female_Indian_Pediatrician.width-1000.format-webp.webp" alt="Photo of Dr. Priya Kapoor">
+            <div><strong>Dr. Priya Kapoor</strong><div class="small">Pediatrician</div></div>
+          </div>
         </div>
       </div>
     </section>
