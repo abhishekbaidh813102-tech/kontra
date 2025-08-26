@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Blog</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>Indian Blog</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="indian-blog.html">Indian Blog</a> |
+      <a href="shop.html">Shop</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="policy.html">Policy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>All Indian Blog Posts</h2>
+    <div id="indian-blog-container"></div>
+  </main>
+
+  <script>
+    fetch("indian-blog.json")
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("indian-blog-container");
+        data.posts.forEach(post => {
+          container.innerHTML += `
+            <div style="border:1px solid #ddd;padding:10px;margin:10px;">
+              <img src="${post.image}" width="250">
+              <h3>${post.title}</h3>
+              <p>${post.excerpt}</p>
+            </div>
+          `;
+        });
+      });
+  </script>
+</body>
+</html>

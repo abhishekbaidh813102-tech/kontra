@@ -1,0 +1,21 @@
+{
+     "posts": [
+       {
+         "title": "Yoga for Healthy Living",
+         "excerpt": "Learn the benefits of Yoga for mind and body.",
+         "image": "https://source.unsplash.com/400x250/?yoga,india"
+       },
+       {
+         "title": "Ayurveda Secrets",
+         "excerpt": "Ancient Indian remedies for modern health.",
+         "image": "https://source.unsplash.com/400x250/?ayurveda"
+       },
+       {
+         "title": "Indian Diet Tips",
+         "excerpt": "Healthy eating habits from Indian tradition.",
+         "image": "https://source.unsplash.com/400x250/?indian-food"
+       }
+     ]
+   }
+
+   

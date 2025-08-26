@@ -1,0 +1,20 @@
+{
+     "products": [
+       {
+         "name": "Organic Green Tea",
+         "price": "₹350",
+         "image": "https://source.unsplash.com/300x200/?green-tea"
+       },
+       {
+         "name": "Handmade Ayurvedic Soap",
+         "price": "₹120",
+         "image": "https://source.unsplash.com/300x200/?soap"
+       },
+       {
+         "name": "Copper Water Bottle",
+         "price": "₹600",
+         "image": "https://source.unsplash.com/300x200/?copper-bottle"
+       }
+     ]
+   }
+   

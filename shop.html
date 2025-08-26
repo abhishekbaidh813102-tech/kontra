@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>Shop</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="indian-blog.html">Indian Blog</a> |
+      <a href="shop.html">Shop</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="policy.html">Policy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+    <div id="shop-container"></div>
+  </main>
+
+  <script>
+    fetch("shop.json")
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("shop-container");
+        data.products.forEach(item => {
+          container.innerHTML += `
+            <div style="border:1px solid #ddd;padding:10px;margin:10px;">
+              <img src="${item.image}" width="200">
+              <h3>${item.name}</h3>
+              <p>Price: ${item.price}</p>
+            </div>
+          `;
+        });
+      });
+  </script>
+</body>
+</html>
