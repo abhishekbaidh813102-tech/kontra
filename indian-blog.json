@@ -1,21 +1,45 @@
 {
-     "posts": [
-       {
-         "title": "Yoga for Healthy Living",
-         "excerpt": "Learn the benefits of Yoga for mind and body.",
-         "image": "https://source.unsplash.com/400x250/?yoga,india"
-       },
-       {
-         "title": "Ayurveda Secrets",
-         "excerpt": "Ancient Indian remedies for modern health.",
-         "image": "https://source.unsplash.com/400x250/?ayurveda"
-       },
-       {
-         "title": "Indian Diet Tips",
-         "excerpt": "Healthy eating habits from Indian tradition.",
-         "image": "https://source.unsplash.com/400x250/?indian-food"
-       }
-     ]
-   }
-
-   
+  "pageType": "comingSoon",
+  "metadata": {
+    "title": "BharatBlogs | जल्द आ रहा है",
+    "description": "भारत की जीवंत संस्कृति, कहानियों और विचारों को समर्पित एक ब्लॉग। जल्द ही आ रहा है!",
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "content": {
+    "logo": {
+      "url": "/images/logo-bharat.png",
+      "altText": "भारतब्लॉग्स लोगो"
+    },
+    "headline": "जल्द आ रहा है",
+    "subheading": "भारत की कहानियाँ, संस्कृति और विचार। एक नए दृष्टिकोण के साथ।",
+    "countdown": {
+      "enabled": true,
+      "launchDate": "2026-01-26T09:00:00+05:30",
+      "message": "लॉन्च होने में बचा समय:"
+    },
+    "subscriptionForm": {
+      "enabled": true,
+      "title": "हमारी यात्रा से जुड़ें!",
+      "inputPlaceholder": "अपना ईमेल पता दर्ज करें",
+      "buttonText": "अपडेट्स पाएं"
+    },
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/bharatblogs"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/BharatBlogsIN"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/bharatblogs_in"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 BharatBlogs। सर्वाधिकार सुरक्षित।"
+  }
+}
