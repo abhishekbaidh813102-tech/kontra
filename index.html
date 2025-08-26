@@ -7,13 +7,12 @@
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="sitemap" type="application/xml" title="Sitemap" href="https://healthcaretips.shop/sitemap.xml">
   <style>
-    /* यह स्टाइल तस्वीरों को गोल और सही आकार का बना देगा */
     .doctors .doc img {
       width: 50px;
       height: 50px;
       border-radius: 50%;
       object-fit: cover;
-      margin-right: 10px; /* नाम और फोटो के बीच थोड़ी जगह */
+      margin-right: 10px;
     }
   </style>
 </head>
@@ -26,6 +25,8 @@
     <div id="navlinks" class="links">
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
+      <a href="indian-blog.html">Indian Blog</a>
+      <a href="shop.html">Shop</a>
       <a href="about.html">About</a>
       <a href="policy.html">Policy</a>
       <a href="contact.html">Contact</a>
@@ -33,50 +34,65 @@
   </div>
 </header>
 
-  <main class="container">
-    <section class="hero">
-      <div>
-        <h1><span data-site-name>Healthcare Tips</span></h1>
-        <p data-tagline>Trusted wellness guides, explained simply.</p>
-        <p class="small">Browse our latest posts below or explore the full blog.</p>
-        <a class="btn" href="blog.html">View all posts</a>
-      </div>
-      <div class="card">
-        <h3>Our Doctors</h3>
-        <div class="doctors">
-          <div class="doc">
-             <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=800&auto=format&fit=crop" alt="डॉ. प्रिया कपूर का फोटो">
-            <div><strong>Dr. Anjali Sharma</strong><div class="small">Cardiologist</div></div>
-          </div>
-          <div class="doc">
-            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=800&auto=format&fit=crop" alt="डॉ. अंजलि शर्मा का फोटो">
-            <div><strong>Dr. Rajesh Verma</strong><div class="small">Neurologist</div></div>
-          </div>
-          <div class="doc">
-            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop" alt="डॉ. राजेश वर्मा का फोटो">
-            <div><strong>Dr. Priya Kapoor</strong><div class="small">Pediatrician</div></div>
-          </div>
+<main class="container">
+  <section class="hero">
+    <div>
+      <h1><span data-site-name>Healthcare Tips</span></h1>
+      <p data-tagline>Trusted wellness guides, explained simply.</p>
+      <p class="small">Browse our latest posts below or explore the full blog.</p>
+      <a class="btn" href="blog.html">View all posts</a>
+    </div>
+    <div class="card">
+      <h3>Our Doctors</h3>
+      <div class="doctors">
+        <div class="doc">
+          <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=800&auto=format&fit=crop" alt="Dr. Anjali Sharma">
+          <div><strong>Dr. Anjali Sharma</strong><div class="small">Cardiologist</div></div>
+        </div>
+        <div class="doc">
+          <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=800&auto=format&fit=crop" alt="Dr. Rajesh Verma">
+          <div><strong>Dr. Rajesh Verma</strong><div class="small">Neurologist</div></div>
+        </div>
+        <div class="doc">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=800&auto=format&fit=crop" alt="Dr. Priya Kapoor">
+          <div><strong>Dr. Priya Kapoor</strong><div class="small">Pediatrician</div></div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section-title">
-      <h2>Latest Posts</h2>
-      <a class="btn" href="blog.html">All posts →</a>
-    </section>
-    <section id="home-posts" class="grid"></section>
+  <!-- Blog Section -->
+  <section class="section-title">
+    <h2>Latest Posts</h2>
+    <a class="btn" href="blog.html">All posts →</a>
+  </section>
+  <section id="home-posts" class="grid"></section>
 
-    <section style="margin-top:24px">
-      <h2>Trusted by</h2>
-      <div class="logo-grid">
-        <div class="logo">Health+</div>
-        <div class="logo">CareX</div>
-        <div class="logo">MediPro</div>
-        <div class="logo">FitLife</div>
-        <div class="logo">WellnessHub</div>
-      </div>
-    </section>
-  </main>
+  <!-- Indian Blog Section -->
+  <section class="section-title">
+    <h2>Indian Blog</h2>
+    <a class="btn" href="indian-blog.html">View all →</a>
+  </section>
+  <section id="home-indian-posts" class="grid"></section>
+
+  <!-- Shop Section -->
+  <section class="section-title">
+    <h2>Shop</h2>
+    <a class="btn" href="shop.html">Explore all →</a>
+  </section>
+  <section id="home-shop" class="grid"></section>
+
+  <section style="margin-top:24px">
+    <h2>Trusted by</h2>
+    <div class="logo-grid">
+      <div class="logo">Health+</div>
+      <div class="logo">CareX</div>
+      <div class="logo">MediPro</div>
+      <div class="logo">FitLife</div>
+      <div class="logo">WellnessHub</div>
+    </div>
+  </section>
+</main>
 
 <footer class="container footer">
   <div>
@@ -87,8 +103,10 @@
 </footer>
 <script src="assets/app.js"></script>
 
-  <script>
-    loadPosts(6).then(list=> renderPosts(list, 'home-posts'));
-  </script>
+<script>
+  loadPosts(6).then(list=> renderPosts(list, 'home-posts'));
+  loadIndianPosts(4).then(list=> renderPosts(list, 'home-indian-posts'));
+  loadShop(4).then(list=> renderShop(list, 'home-shop'));
+</script>
 </body>
 </html>
