@@ -1,20 +1,45 @@
 {
-     "products": [
-       {
-         "name": "Organic Green Tea",
-         "price": "₹350",
-         "image": "https://source.unsplash.com/300x200/?green-tea"
-       },
-       {
-         "name": "Handmade Ayurvedic Soap",
-         "price": "₹120",
-         "image": "https://source.unsplash.com/300x200/?soap"
-       },
-       {
-         "name": "Copper Water Bottle",
-         "price": "₹600",
-         "image": "https://source.unsplash.com/300x200/?copper-bottle"
-       }
-     ]
-   }
-   
+  "pageType": "comingSoon",
+  "metadata": {
+    "title": "Healthcare Tips | जल्द आ रहा है",
+    "description": "हम आपके लिए स्वास्थ्य संबंधी बेहतरीन टिप्स ला रहे हैं। जल्द ही लॉन्च हो रहा है!",
+    "charset": "UTF-8",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "content": {
+    "logo": {
+      "url": "/images/logo.png",
+      "altText": "Healthcare Tips लोगो"
+    },
+    "headline": "जल्द आ रहा है",
+    "subheading": "हम आपके लिए स्वास्थ्य संबंधी बेहतरीन टिप्स ला रहे हैं। हमारे साथ बने रहें!",
+    "countdown": {
+      "enabled": true,
+      "launchDate": "2025-12-25T10:00:00+05:30",
+      "message": "लॉन्च होने में बचा समय:"
+    },
+    "subscriptionForm": {
+      "enabled": true,
+      "title": "सबसे पहले जानने के लिए साइन अप करें!",
+      "inputPlaceholder": "अपना ईमेल पता दर्ज करें",
+      "buttonText": "मुझे सूचित करें"
+    },
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/yourpage"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/thing_is_news"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/im_abhishek_kushwaha"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Healthcare Tips। सर्वाधिकार सुरक्षित।"
+  }
+}
