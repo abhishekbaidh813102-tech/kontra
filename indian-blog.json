@@ -1,34 +1,107 @@
 {
-  "pageType": "comingSoon",
-  "metadata": {
-    "title": "BharatBlogs | जल्द आ रहा है",
-    "description": "भारत की जीवंत संस्कृति, कहानियों और विचारों को समर्पित एक ब्लॉग। जल्द ही आ रहा है!",
+  "siteName": "BharatBlogs",
+  "siteMetadata": {
+    "title": "BharatBlogs - भारत की कहानियाँ, संस्कृति और उत्पाद",
+    "description": "भारत की जीवंत संस्कृति, कहानियों, विचारों और चुनिंदा उत्पादों को समर्पित एक मंच।",
     "charset": "UTF-8",
     "viewport": "width=device-width, initial-scale=1.0"
   },
-  "content": {
-    "logo": {
-      "url": "/images/logo-bharat.png",
-      "altText": "भारतब्लॉग्स लोगो"
+  "navigation": [
+    {
+      "title": "Home",
+      "path": "/"
     },
-    "headline": "जल्द आ रहा है",
-    "subheading": "भारत की कहानियाँ, संस्कृति और विचार। एक नए दृष्टिकोण के साथ।",
-    "countdown": {
-      "enabled": true,
-      "launchDate": "2026-01-26T09:00:00+05:30",
-      "message": "लॉन्च होने में बचा समय:"
+    {
+      "title": "Indian Blog",
+      "path": "/blog"
     },
-    "subscriptionForm": {
-      "enabled": true,
-      "title": "हमारी यात्रा से जुड़ें!",
-      "inputPlaceholder": "अपना ईमेल पता दर्ज करें",
-      "buttonText": "अपडेट्स पाएं"
+    {
+      "title": "Shop",
+      "path": "/shop"
+    }
+  ],
+  "pages": {
+    "homePage": {
+      "pageType": "home",
+      "headline": "भारत की आत्मा, एक ही स्थान पर",
+      "subheading": "हमारी कहानियाँ पढ़ें और हमारे विशेष स्टोर से खरीदारी करें।",
+      "featuredPosts": [
+        {
+          "postId": "blog001",
+          "title": "वाराणसी के घाट: जहाँ जीवन और मृत्यु मिलते हैं",
+          "summary": "गंगा नदी के किनारे बसे वाराणसी के घाटों की आध्यात्मिक यात्रा...",
+          "link": "/blog/varanasi-ghats"
+        }
+      ],
+      "featuredProducts": [
+        {
+          "productId": "shop001",
+          "name": "हस्तनिर्मित जयपुरी रजाई",
+          "imageUrl": "/images/products/jaipuri-quilt.jpg",
+          "link": "/shop/jaipuri-quilt"
+        }
+      ]
     },
+    "blogPage": {
+      "pageType": "blog",
+      "title": "Indian Blog",
+      "description": "भारत के हर कोने से कहानियाँ और अनुभव।",
+      "posts": [
+        {
+          "id": "blog001",
+          "title": "वाराणसी के घाट: जहाँ जीवन और मृत्यु मिलते हैं",
+          "author": "अभिषेक कुशवाहा",
+          "publishDate": "2026-02-10",
+          "tags": ["यात्रा", "संस्कृति", "आध्यात्म"],
+          "content": "गंगा नदी के किनारे बसे वाराणसी के घाटों की एक आध्यात्मिक यात्रा, जहाँ हर सुबह एक नया उत्सव और हर शाम एक दिव्य आरती होती है...",
+          "imageUrl": "/images/blog/varanasi.jpg"
+        },
+        {
+          "id": "blog002",
+          "title": "केरल के बैकवॉटर्स: प्रकृति का शांत स्वर्ग",
+          "author": "प्रिया शर्मा",
+          "publishDate": "2026-02-15",
+          "tags": ["यात्रा", "प्रकृति", "केरल"],
+          "content": "केरल के शांत बैकवॉटर्स में हाउसबोट पर रहने का अनुभव अविस्मरणीय है। यहाँ का शांत पानी और हरे-भरे किनारे मन को मोह लेते हैं...",
+          "imageUrl": "/images/blog/kerala-backwaters.jpg"
+        }
+      ]
+    },
+    "shopPage": {
+      "pageType": "shop",
+      "title": "हमारी दुकान",
+      "description": "भारत के कारीगरों द्वारा बनाए गए विशेष उत्पाद।",
+      "products": [
+        {
+          "id": "shop001",
+          "name": "हस्तनिर्मित जयपुरी रजाई",
+          "category": "घर की सजावट",
+          "price": {
+            "amount": 4500,
+            "currency": "INR"
+          },
+          "description": "राजस्थान के कुशल कारीगरों द्वारा बनाई गई पारंपरिक ब्लॉक-प्रिंटेड जयपुरी रजाई।",
+          "imageUrl": "/images/products/jaipuri-quilt.jpg",
+          "stock": 25
+        },
+        {
+          "id": "shop002",
+          "name": "बनारसी सिल्क साड़ी",
+          "category": "पहनावा",
+          "price": {
+            "amount": 12000,
+            "currency": "INR"
+          },
+          "description": "शादियों और खास मौकों के लिए शुद्ध रेशम से बनी एक सुंदर बनारसी साड़ी।",
+          "imageUrl": "/images/products/banarasi-saree.jpg",
+          "stock": 15
+        }
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 BharatBlogs। सर्वाधिकार सुरक्षित।",
     "socialLinks": [
-      {
-        "platform": "Facebook",
-        "url": "https://facebook.com/bharatblogs"
-      },
       {
         "platform": "Twitter",
         "url": "https://twitter.com/BharatBlogsIN"
@@ -38,8 +111,5 @@
         "url": "https://instagram.com/bharatblogs_in"
       }
     ]
-  },
-  "footer": {
-    "copyright": "© 2026 BharatBlogs। सर्वाधिकार सुरक्षित।"
   }
 }
