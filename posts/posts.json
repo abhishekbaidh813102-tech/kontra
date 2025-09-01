@@ -60,6 +60,14 @@
     "tags": ["health", "walking", "fitness", "daily habits"],
     "excerpt": "Discover the powerful benefits of walking just 30 minutes a day for your body and mind.",
     "url": "/posts/benefits-of-walking-30-minutes-daily.html"
+  },
+  {
+    "title": "Understanding Heart Attack Symptoms",
+    "date": "2025-09-01",
+    "tags": ["heart health", "cardiology", "emergency"],
+    "summary": "Learn the key symptoms of a heart attack and why early recognition can save lives.",
+    "url": "heart-attack.html",
+    "image": "https://images.unsplash.com/photo-1606813902914-3b52f06e63ed"
   }
 ]
 
