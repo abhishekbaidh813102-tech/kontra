@@ -68,6 +68,14 @@
     "summary": "Learn the key symptoms of a heart attack and why early recognition can save lives.",
     "url": "/posts/heart-attack.html",
     "image": "https://images.unsplash.com/photo-1606813902914-3b52f06e63ed"
-  }
+  },
+  {
+  "title": "Balanced Diet for Beginners",
+  "date": "2025-09-17",
+  "tags": ["nutrition", "diet", "beginners"],
+  "excerpt": "Learn how to build a simple, balanced diet with the right mix of carbs, proteins, fats, vitamins, and minerals to stay healthy and energized.",
+  "url": "/posts/balanced-diet-for-beginners.html",
+  "image": "https://images.unsplash.com/photo-1606788075761-44c1d3b1a28e"
+}
 ]
 
